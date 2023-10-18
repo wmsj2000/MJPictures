@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-18T04:30:16.127Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36 Edg/117.0.2045.40" etag="riP2Lm2grJn4wgKrCVLA" version="22.0.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-18T07:27:54.684Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36 Edg/117.0.2045.40" etag="46EyNH9w3I_BbrvW5gs3" version="22.0.4" type="github">
   <diagram name="第 1 页" id="E1xqAoynhQZB6YTEvSdn">
     <mxGraphModel dx="1026" dy="661" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -16,16 +16,8 @@
         <mxCell id="flCKQIhOCsDCRdV_kYDA-4" value="Stream n&#39;s&lt;br&gt;LSM-Tree" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="760" y="230" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="flCKQIhOCsDCRdV_kYDA-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="flCKQIhOCsDCRdV_kYDA-5" target="flCKQIhOCsDCRdV_kYDA-1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="flCKQIhOCsDCRdV_kYDA-11" value="insert" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="flCKQIhOCsDCRdV_kYDA-7">
-          <mxGeometry x="-0.6" relative="1" as="geometry">
-            <mxPoint y="20" as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="flCKQIhOCsDCRdV_kYDA-5" value="Tuple" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="70" y="110" width="80" height="20" as="geometry" />
+        <mxCell id="flCKQIhOCsDCRdV_kYDA-5" value="(key1,tuple1)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="120" width="80" height="20" as="geometry" />
         </mxCell>
         <mxCell id="flCKQIhOCsDCRdV_kYDA-9" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="flCKQIhOCsDCRdV_kYDA-5" target="flCKQIhOCsDCRdV_kYDA-2">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -85,6 +77,31 @@
         </mxCell>
         <mxCell id="flCKQIhOCsDCRdV_kYDA-26" value="Matches&lt;br&gt;(1,2,...,n)" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="790" y="170" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="flCKQIhOCsDCRdV_kYDA-28" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="flCKQIhOCsDCRdV_kYDA-5" target="flCKQIhOCsDCRdV_kYDA-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="370" as="sourcePoint" />
+            <mxPoint x="440" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="flCKQIhOCsDCRdV_kYDA-29" value="insert" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="flCKQIhOCsDCRdV_kYDA-28">
+          <mxGeometry x="-0.1833" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="flCKQIhOCsDCRdV_kYDA-30" value="tuple1" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="30" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="flCKQIhOCsDCRdV_kYDA-32" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="flCKQIhOCsDCRdV_kYDA-30" target="flCKQIhOCsDCRdV_kYDA-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="370" as="sourcePoint" />
+            <mxPoint x="440" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="flCKQIhOCsDCRdV_kYDA-33" value="key1 = getKey1(tuple1)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="flCKQIhOCsDCRdV_kYDA-32">
+          <mxGeometry x="-0.2" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
