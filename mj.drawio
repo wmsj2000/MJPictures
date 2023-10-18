@@ -1,9 +1,91 @@
-<mxfile host="app.diagrams.net" modified="2023-10-13T02:26:53.616Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36 Edg/117.0.2045.40" etag="wOHamQJc_cARTmFocQX5" version="21.3.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-18T04:30:16.127Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36 Edg/117.0.2045.40" etag="riP2Lm2grJn4wgKrCVLA" version="22.0.4" type="github">
   <diagram name="第 1 页" id="E1xqAoynhQZB6YTEvSdn">
     <mxGraphModel dx="1026" dy="661" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="flCKQIhOCsDCRdV_kYDA-1" value="Stream 1&#39;s&lt;br&gt;LSM-Tree" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="230" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="flCKQIhOCsDCRdV_kYDA-2" value="Stream 2&#39;s&lt;br&gt;LSM-Tree" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="230" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="flCKQIhOCsDCRdV_kYDA-3" value="Stream 2&#39;s&lt;br&gt;LSM-Tree" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="430" y="230" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="flCKQIhOCsDCRdV_kYDA-4" value="Stream n&#39;s&lt;br&gt;LSM-Tree" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="760" y="230" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="flCKQIhOCsDCRdV_kYDA-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="flCKQIhOCsDCRdV_kYDA-5" target="flCKQIhOCsDCRdV_kYDA-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="flCKQIhOCsDCRdV_kYDA-11" value="insert" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="flCKQIhOCsDCRdV_kYDA-7">
+          <mxGeometry x="-0.6" relative="1" as="geometry">
+            <mxPoint y="20" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="flCKQIhOCsDCRdV_kYDA-5" value="Tuple" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="110" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="flCKQIhOCsDCRdV_kYDA-9" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="flCKQIhOCsDCRdV_kYDA-5" target="flCKQIhOCsDCRdV_kYDA-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="370" as="sourcePoint" />
+            <mxPoint x="150" y="140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="flCKQIhOCsDCRdV_kYDA-12" value="probe" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="flCKQIhOCsDCRdV_kYDA-9">
+          <mxGeometry x="0.06" y="-4" relative="1" as="geometry">
+            <mxPoint y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="flCKQIhOCsDCRdV_kYDA-14" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="flCKQIhOCsDCRdV_kYDA-2" target="flCKQIhOCsDCRdV_kYDA-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="160" y="165" as="sourcePoint" />
+            <mxPoint x="300" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="flCKQIhOCsDCRdV_kYDA-15" value="probe" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="flCKQIhOCsDCRdV_kYDA-14">
+          <mxGeometry x="0.06" y="-4" relative="1" as="geometry">
+            <mxPoint y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="flCKQIhOCsDCRdV_kYDA-18" value="Matches&lt;br&gt;(1,2)" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="170" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="flCKQIhOCsDCRdV_kYDA-19" value="Matches&lt;br&gt;(1,2,3)" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="460" y="170" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="flCKQIhOCsDCRdV_kYDA-20" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="550" y="260" as="sourcePoint" />
+            <mxPoint x="620" y="259.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="flCKQIhOCsDCRdV_kYDA-21" value="probe" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="flCKQIhOCsDCRdV_kYDA-20">
+          <mxGeometry x="0.06" y="-4" relative="1" as="geometry">
+            <mxPoint y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="flCKQIhOCsDCRdV_kYDA-23" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="630" y="259.5" as="sourcePoint" />
+            <mxPoint x="680" y="259.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="flCKQIhOCsDCRdV_kYDA-24" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="690" y="260" as="sourcePoint" />
+            <mxPoint x="760" y="259.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="flCKQIhOCsDCRdV_kYDA-25" value="probe" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="flCKQIhOCsDCRdV_kYDA-24">
+          <mxGeometry x="0.06" y="-4" relative="1" as="geometry">
+            <mxPoint y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="flCKQIhOCsDCRdV_kYDA-26" value="Matches&lt;br&gt;(1,2,...,n)" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="790" y="170" width="80" height="40" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
