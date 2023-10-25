@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-10-25T10:49:23.880Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36 Edg/117.0.2045.40" etag="VCk3JNx4kiIRDit64KJD" version="22.0.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-25T10:52:24.486Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36 Edg/117.0.2045.40" etag="WEKA5-veo7JK6dnj0Lv9" version="22.0.4" type="github">
   <diagram name="第 1 页" id="E1xqAoynhQZB6YTEvSdn">
-    <mxGraphModel dx="1026" dy="661" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="892" dy="575" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -293,6 +293,23 @@
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="270" y="640" as="sourcePoint" />
             <mxPoint x="410" y="740" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="flCKQIhOCsDCRdV_kYDA-107" value="Join" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="454" y="1250" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="flCKQIhOCsDCRdV_kYDA-108" value="Hash" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="420" y="1180" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="flCKQIhOCsDCRdV_kYDA-109" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="flCKQIhOCsDCRdV_kYDA-108">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="440" y="1100" as="sourcePoint" />
+            <mxPoint x="730" y="1190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="flCKQIhOCsDCRdV_kYDA-110" value="Stream 1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="flCKQIhOCsDCRdV_kYDA-109">
+          <mxGeometry x="-0.1576" relative="1" as="geometry">
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
       </root>
